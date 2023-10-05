@@ -154,6 +154,7 @@ text-decoration: none;
     background-size: 1440рх;
     background-position: center;
     background-repeat:no-repeat;
+    background-size: cover;
 }
 
 
@@ -252,12 +253,24 @@ margin: 0 auto;
     margin-bottom: 8px;
 }
 
+
 .square-icon{
     display: flex;
     gap: 24px;
     margin-bottom: 8px;
 }
 
+
+.icons{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-top: 24px; 
+    margin-right: 100px; 
+    margin-bottom: 24px; 
+    margin-left: 100px;
+  
+}
 .description-list{
     display: flex;
     gap: 24px; 
