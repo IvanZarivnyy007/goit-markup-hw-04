@@ -109,6 +109,21 @@ margin-right: 76px;
     color: #404bbf;
     } 
 
+
+/* .studio::after {
+    content: '';
+    height: 4px;
+    border-radius: 2px;
+    background: var(--OCEAN, #2E2F42);
+    display: flex;
+
+} */
+
+/* .studio::after:hover{} */
+
+
+
+
 .nav-menu-item::after {
 content: '';
 width: 48px;
