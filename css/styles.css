@@ -480,26 +480,21 @@ letter-spacing: 0.02em;
 }
 
 .social-link{
-    width: 100%;
-    height: 100%;
-    background-color: #4d5ae5;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    width: 40px;
+    height: 40px;
+    fill: rgba(244, 244, 253, 1);
+    background-color: rgba(77, 90, 229, 1);
+    border-radius: 50%;
 
-  .social-link:hover,
-  .social-link:focus {
+}
+
+
+.social-link:hover,
+.social-link:focus {
     background-color: #404bbf;
-  }
-
-.social-lik-team{
-
-
 }
 
 
