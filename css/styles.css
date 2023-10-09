@@ -492,6 +492,11 @@ letter-spacing: 0.02em;
 }
 
 
+.li-team-list{
+
+}
+
+
 .social-link:hover,
 .social-link:focus {
     background-color: #404bbf;
@@ -552,12 +557,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     
 }
 
-.list-infocower-images-text:hover {
+.list-info:hover .overlay {transform: translateY(0%);}
 
-transform: translateY(0);
-
-
-}
 
 .cower-images{
 position: absolute; 
